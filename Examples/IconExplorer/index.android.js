@@ -4,7 +4,8 @@
  */
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
+var ReactNative = require('react-native');
 var {
   AppRegistry,
   StyleSheet,
@@ -12,7 +13,7 @@ var {
   BackAndroid,
   Navigator,
   ToolbarAndroid,
-} = React;
+} = ReactNative;
 
 var Ionicons = require('react-native-vector-icons/Ionicons');
 var IconSetList = require('./IconSetList');

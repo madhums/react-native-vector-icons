@@ -1,6 +1,7 @@
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
+var ReactNative = require('react-native');
 var {
   ListView,
   StyleSheet,
@@ -8,7 +9,7 @@ var {
   View,
   TextInput,
   Platform,
-} = React;
+} = ReactNative;
 
 var IconList = React.createClass({
   getInitialState: function() {

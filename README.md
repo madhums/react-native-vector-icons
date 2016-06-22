@@ -307,7 +307,7 @@ Try the `IconExplorer` project in `Examples/IconExplorer` folder, there you can 
 
 ### Basic Example
 ```js
-var React = require('react-native');
+var React = require('react');
 var Icon = require('react-native-vector-icons/Ionicons');
 
 var ExampleView = React.createClass({
@@ -321,12 +321,12 @@ var ExampleView = React.createClass({
 Full example in `TabBarExample` project in `Examples/TabBarExample` folder. 
 
 ```js
-var React = require('react-native');
+var React = require('react');
 var {
   View, 
   Text, 
   TabBarIOS,
-} = React;
+} = require('react-native');
 var Icon = require('react-native-vector-icons/Ionicons');
 
 var TabBarView = React.createClass({
@@ -349,7 +349,7 @@ var TabBarView = React.createClass({
 ### ToolbarAndroid
 
 ```js
-var React = require('react-native');
+var React = require('react');
 var Icon = require('react-native-vector-icons/Ionicons');
 
 var ToolbarView = React.createClass({
@@ -373,7 +373,7 @@ var ToolbarView = React.createClass({
 
 ### Inline Icons
 ```js
-var React = require('react-native');
+var React = require('react');
 var Icon = require('react-native-vector-icons/Ionicons');
 
 var ExampleView = React.createClass({

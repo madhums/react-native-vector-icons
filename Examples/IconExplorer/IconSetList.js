@@ -1,6 +1,7 @@
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
+var ReactNative = require('react-native');
 var {
   Image,
   ListView,
@@ -9,7 +10,7 @@ var {
   Text,
   View,
   Platform,
-} = React;
+} = ReactNative;
 
 var dismissKeyboard = require('dismissKeyboard');
 
